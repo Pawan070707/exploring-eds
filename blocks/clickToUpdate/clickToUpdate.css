@@ -2,22 +2,22 @@
     margin-top: 50px;
 }
 
-.mainDiv{
+.mainDiv {
     display: flex;
     gap: 40px;
     width: 90%;
-    border: 1px solid blue;
+    border: 1px solid #0000ff;
 }
 
 .leftDiv > div {
-    background-color: rgb(114, 113, 113);
+    background-color: #727171;
     color: white;
     width: 100%;
 }
 
 .leftDivItem {
-    border-bottom: 1px solid grey(0, 0%, 2%);
-    box-shadow: 0px 0px 10px 0px hsl(0, 0%, 4%);
+    border-bottom: 1px solid #050505;
+    box-shadow: 0px 0px 10px 0px #0a0a0a;
     padding: 5px;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blue;
+    color: #0000ff;
     width: 50%;
 }
 
