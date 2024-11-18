@@ -9,12 +9,25 @@
 
 .cards > ul > li {
   border: 1px solid #dadada;
-  background-color: var(--background-color);
+  background-color: black;
+  color: white
 }
 
 .cards .cards-card-body {
   margin: 16px;
 }
+
+.cards > ul > li p {
+  font-size: 15px;
+  color: white;
+}
+
+
+.cards > ul > li p:first-of-type {
+  font-size: 12px;
+  color: white;
+}
+
 
 .cards .cards-card-image {
   line-height: 0;
